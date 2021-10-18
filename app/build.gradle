@@ -31,10 +31,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    //or instead using buildFeatures we can use dataBinding like this
     buildFeatures{
         dataBinding=true
+        viewBinding=true
     }
-    //or instead using buildFeatures we can use dataBinding like this
 
 }
 
